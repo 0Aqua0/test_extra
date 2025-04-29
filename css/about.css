@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #2c2c2c;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.logos_us{
+    margin-top: 13px;
+}
+
+.navigation{
+    margin-top: 50px;
+}
+
+aside img{
+    width: 60px;
+    float: left;
+}
+
+aside .logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+    position: relative;
+    top: +7px;
+}
+
+aside h3{
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li{
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform 1s ease, color 1s ease;
+}
+
+aside ul a{
+    text-decoration: none;
+}
+
+aside ul li:hover, aside ul a:hover{
+    color: #eb5959;
+    transform: scale(1.05);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.contacts{
+    background-color: #181818;
+    border-radius: 20px;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    width: 100%;
+    border: 5px solid #4d4d4d;
+}
